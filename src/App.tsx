@@ -1,5 +1,5 @@
-function App() {
-  return <div>Hello world</div>;
-}
-
-export default App;
+export const App = () => {
+  return (
+    <div className="flex justify-center items-center h-screen">Hello world</div>
+  );
+};
